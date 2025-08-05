@@ -1,4 +1,5 @@
 // components/FeatureSection.tsx
+import Image from 'next/image';
 import React from 'react';
 
 const FeatureSection: React.FC = () => {
@@ -7,8 +8,10 @@ const FeatureSection: React.FC = () => {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         {/* Left: Image */}
         <div className="w-full lg:w-1/2">
-          <img
+          <Image
             src="/Assets/build.jpg"
+            width={1000}
+            height={1500}
             alt="Built for Creators"
             className="w-full rounded-xl shadow-lg"
           />
@@ -20,7 +23,7 @@ const FeatureSection: React.FC = () => {
             Built for Creators, Powered by Web3
           </h2>
           <p className="text-lg text-gray-300">
-            Since 2022, we've been pioneering the future of no-code game development, empowering creators to build, monetize, and scale their visions in the virtual creation.
+            Since 2022, we&apos;ve been pioneering the future of no-code game development, empowering creators to build, monetize, and scale their visions in the virtual creation.
           </p>
 
           {/* Grid of Features */}
