@@ -21,16 +21,17 @@ const NoCodeStudio: React.FC = () => {
         {/* Right: Video card */}
         <div className="relative rounded-xl overflow-hidden shadow-lg">
           <video
-            className="w-full h-auto"
-            src="/Videos/V1.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-          />
+          className="w-full h-auto block rounded-xl"
+          src="/Videos/V1.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          controlsList="nodownload"
+        />
           
           {/* Overlay content */}
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center px-4">
+          <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center px-4">
             <h3 className="text-xl font-semibold mb-2">
               Interactive Studio Demo
             </h3>
