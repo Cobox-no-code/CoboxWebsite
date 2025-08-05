@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,11 +17,11 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <header className="w-full bg-black text-white px-4 py-4 fixed top-0 left-0 z-50 shadow-md">
+    <header className="w-full bg-black/50 text-white px-4 py-4 fixed top-0 left-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold font-transducer">
-          COBOX
+          <Image src="/Assets/logo.png" alt='logo' width={100} height={50}/>
         </Link>
 
         {/* Desktop Menu */}

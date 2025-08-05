@@ -1,4 +1,5 @@
 import AiYodhaSection from "@/components/AiYodhaSection";
+import CoboxText from "@/components/CoboxText";
 import FeatureSection from "@/components/FeatureSection";
 import Hero from "@/components/Hero";
 import MarqueeFooter from "@/components/Marquee";
@@ -20,6 +21,7 @@ export default function Home() {
       <Unleash/>
       <NoCodeStudio/>
       <PartnershipSection/>
+      <CoboxText/>
     </div>
   );
 }
