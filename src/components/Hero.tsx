@@ -3,6 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 
 import { Button } from '@/components/ui/button';
+import { Play, Coins } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -19,10 +20,15 @@ const Hero: React.FC = () => {
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <Link href="https://discord.com/invite/KTMG3NxBEK" target="_blank">
-            <Button className='bg-purple-500 text-white px-6 py-3 text-base font-semibold rounded-none'>Launch Your World</Button>
+            <Button size="lg" variant="outline"
+              className="px-8 py-3 h-auto group rounded-2xl border border-gray-700 hover:text-purple-500 hover:bg-black font-medium">
+              <Play className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />Launch Your World</Button>
           </Link>
           <Link href="https://opensea.io/collection/cobox-genesis" target="_blank">
-            <Button variant="secondary" className='text-base font-semibold'>Explore Genesis NFTs</Button>
+            <Button variant="outline" 
+              size="lg"
+              className="px-8 py-3 h-auto rounded-2xl border border-gray-700 hover:text-purple-500 hover:bg-black font-medium group">
+                <Coins className="w-4 h-4 mr-2 group-hover:rotate-12 transition-transform" />Explore Genesis NFTs</Button>
           </Link>
         </div>
       </div>

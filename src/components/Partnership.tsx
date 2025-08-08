@@ -28,143 +28,143 @@ const Partnerships = () => {
       description: "NFT Gaming Platform",
       link: "https://play.immutable.com/",
     },
-    {
-      name: "ANIM AI",
-      logo: "/Assets/partners/anim-ai.png",
-      description: "",
-      link: "https://x.com/AnimAI_x",
-    },
-    {
-      name: "ARCANEVAULT",
-      logo: "/Assets/partners/arcane-vault.png",
-      description: "",
-      link: "https://x.com/ArcaneVault_xyz",
-    },
-    {
-      name: "BITGERT",
-      logo: "/Assets/partners/bitgert.png",
-      description: "",
-      link: "https://x.com/bitgertbrise",
-    },
+    // {
+    //   name: "ANIM AI",
+    //   logo: "/Assets/partners/anim-ai.png",
+    //   description: "",
+    //   link: "https://x.com/AnimAI_x",
+    // },
+    // {
+    //   name: "ARCANEVAULT",
+    //   logo: "/Assets/partners/arcane-vault.png",
+    //   description: "",
+    //   link: "https://x.com/ArcaneVault_xyz",
+    // },
+    // {
+    //   name: "BITGERT",
+    //   logo: "/Assets/partners/bitgert.png",
+    //   description: "",
+    //   link: "https://x.com/bitgertbrise",
+    // },
 
-    {
-      name: "CREATOR AI",
-      logo: "/Assets/partners/creator_ai.png",
-      description: "",
-      link: "https://x.com/creator_ai1",
-    },
+    // {
+    //   name: "CREATOR AI",
+    //   logo: "/Assets/partners/creator_ai.png",
+    //   description: "",
+    //   link: "https://x.com/creator_ai1",
+    // },
 
-    {
-      name: "DOGE BANK",
-      logo: "/Assets/partners/doge-bank.png",
-      description: "",
-      link: "https://x.com/Doge_Bank_",
-    },
-    {
-      name: "ECOCREDS",
-      logo: "/Assets/partners/ecocreds.png",
-      description: "",
-      link: "https://x.com/EcoCreds",
-    },
-    {
-      name: "FUNTON AI",
-      logo: "/Assets/partners/funton-ai.png",
-      description: "",
-      link: "https://x.com/funton_ai",
-    },
+    // {
+    //   name: "DOGE BANK",
+    //   logo: "/Assets/partners/doge-bank.png",
+    //   description: "",
+    //   link: "https://x.com/Doge_Bank_",
+    // },
+    // {
+    //   name: "ECOCREDS",
+    //   logo: "/Assets/partners/ecocreds.png",
+    //   description: "",
+    //   link: "https://x.com/EcoCreds",
+    // },
+    // {
+    //   name: "FUNTON AI",
+    //   logo: "/Assets/partners/funton-ai.png",
+    //   description: "",
+    //   link: "https://x.com/funton_ai",
+    // },
 
-    {
-      name: "INITVERSE",
-      logo: "/Assets/partners/init-verse.png",
-      description: "",
-      link: "https://x.com/InitVerse",
-    },
-    {
-      name: "MAJYOGAME",
-      logo: "/Assets/partners/majyo-game.png",
-      description: "",
-      link: "https://x.com/MajyoGame",
-    },
-    {
-      name: "MCNEX",
-      logo: "/Assets/partners/mcnex.png",
-      description: "",
-      link: "https://x.com/MCNEx_web3",
-    },
+    // {
+    //   name: "INITVERSE",
+    //   logo: "/Assets/partners/init-verse.png",
+    //   description: "",
+    //   link: "https://x.com/InitVerse",
+    // },
+    // {
+    //   name: "MAJYOGAME",
+    //   logo: "/Assets/partners/majyo-game.png",
+    //   description: "",
+    //   link: "https://x.com/MajyoGame",
+    // },
+    // {
+    //   name: "MCNEX",
+    //   logo: "/Assets/partners/mcnex.png",
+    //   description: "",
+    //   link: "https://x.com/MCNEx_web3",
+    // },
 
-    {
-      name: "NEXCROW",
-      logo: "/Assets/partners/nexcrow.png",
-      description: "",
-      link: "https://x.com/Nexus_mls",
-    },
-    {
-      name: "POEG",
-      logo: "/Assets/partners/poeg.png",
-      description: "",
-      link: "https://x.com/Peog_meme_",
-    },
-    {
-      name: "POP MAX",
-      logo: "/Assets/partners/pop.png",
-      description: "",
-      link: "https://x.com/PopMax_xyz",
-    },
+    // {
+    //   name: "NEXCROW",
+    //   logo: "/Assets/partners/nexcrow.png",
+    //   description: "",
+    //   link: "https://x.com/Nexus_mls",
+    // },
+    // {
+    //   name: "POEG",
+    //   logo: "/Assets/partners/poeg.png",
+    //   description: "",
+    //   link: "https://x.com/Peog_meme_",
+    // },
+    // {
+    //   name: "POP MAX",
+    //   logo: "/Assets/partners/pop.png",
+    //   description: "",
+    //   link: "https://x.com/PopMax_xyz",
+    // },
 
-    {
-      name: "SFT PROTOCOL",
-      logo: "/Assets/partners/sft-protocol.png",
-      description: "",
-      link: "https://x.com/SFTProtocol",
-    },
-    {
-      name: "SHADOW",
-      logo: "/Assets/partners/shadow.png",
-      description: "",
-      link: "https://x.com/ShadowbyteFi",
-    },
-    {
-      name: "SWEETYAI",
-      logo: "/Assets/partners/sweety.png",
-      description: "",
-      link: "https://x.com/SweetyAI_Labs",
-    },
-    {
-      name: "TERMINUS",
-      logo: "/Assets/partners/terminus.png",
-      description: "",
-      link: "https://x.com/terminus_pos",
-    },
-    {
-      name: "V&",
-      logo: "/Assets/partners/v-and.png",
-      description: "",
-      link: "https://x.com/VN_DeSearch",
-    },
-    {
-      name: "VITAMIN AI",
-      logo: "/Assets/partners/vitamin-ai.png",
-      description: "",
-      link: "https://x.com/Vitaminiai",
-    },
-    {
-      name: "VLY",
-      logo: "/Assets/partners/vly.png",
-      description: "",
-      link: "https://x.com/vlyai",
-    },
-    {
-      name: "WILD SHOOTING",
-      logo: "/Assets/partners/wild-shooting.png",
-      description: "",
-      link: "https://x.com/WildShootingOFL",
-    },
-    {
-      name: "ZIP CLASH",
-      logo: "/Assets/partners/zip-clash.png",
-      description: "",
-      link: "https://x.com/Zip_Clash",
-    },
+    // {
+    //   name: "SFT PROTOCOL",
+    //   logo: "/Assets/partners/sft-protocol.png",
+    //   description: "",
+    //   link: "https://x.com/SFTProtocol",
+    // },
+    // {
+    //   name: "SHADOW",
+    //   logo: "/Assets/partners/shadow.png",
+    //   description: "",
+    //   link: "https://x.com/ShadowbyteFi",
+    // },
+    // {
+    //   name: "SWEETYAI",
+    //   logo: "/Assets/partners/sweety.png",
+    //   description: "",
+    //   link: "https://x.com/SweetyAI_Labs",
+    // },
+    // {
+    //   name: "TERMINUS",
+    //   logo: "/Assets/partners/terminus.png",
+    //   description: "",
+    //   link: "https://x.com/terminus_pos",
+    // },
+    // {
+    //   name: "V&",
+    //   logo: "/Assets/partners/v-and.png",
+    //   description: "",
+    //   link: "https://x.com/VN_DeSearch",
+    // },
+    // {
+    //   name: "VITAMIN AI",
+    //   logo: "/Assets/partners/vitamin-ai.png",
+    //   description: "",
+    //   link: "https://x.com/Vitaminiai",
+    // },
+    // {
+    //   name: "VLY",
+    //   logo: "/Assets/partners/vly.png",
+    //   description: "",
+    //   link: "https://x.com/vlyai",
+    // },
+    // {
+    //   name: "WILD SHOOTING",
+    //   logo: "/Assets/partners/wild-shooting.png",
+    //   description: "",
+    //   link: "https://x.com/WildShootingOFL",
+    // },
+    // {
+    //   name: "ZIP CLASH",
+    //   logo: "/Assets/partners/zip-clash.png",
+    //   description: "",
+    //   link: "https://x.com/Zip_Clash",
+    // },
   ];
   return (
     <section
@@ -195,7 +195,7 @@ const Partnerships = () => {
           </a>
         ))}
       </div> */}
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-10 items-center justify-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 items-center justify-center">
         {partners.map((partner) => (
           <a
             key={partner.name}
