@@ -12,14 +12,14 @@ const Hero: React.FC = () => {
       style={{ backgroundImage: "url('/Assets/hero-bg.webp')" }}
     >
       <div className="bg-opacity-50 p-8 rounded-lg max-w-5xl">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6">
           Build 3D multiplayer games with AI — no code needed.
         </h1>
         <p className="text-lg md:text-xl mb-8">
           Empowering creators and players with true
           ownership. Build, play, and earn in a decentralized world
         </p>
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
+        <div className="flex flex-col md:flex-row gap-2 md:gap-4 justify-center">
           <Link href="https://discord.com/invite/KTMG3NxBEK" target="_blank">
             <Button size="lg" variant="outline"
               className="px-8 py-3 h-auto group rounded-2xl border border-gray-700 hover:text-purple-500 hover:bg-black font-medium">
