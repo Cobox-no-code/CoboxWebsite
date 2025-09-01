@@ -8,7 +8,7 @@ const Stats: React.FC = () => {
         Ecosystem Impact
       </h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
         <div className="group">
           <div className="text-4xl font-bold bg-gradient-to-r from-[hsl(195,100%,60%)] to-[hsl(280,85%,60%)] bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">
             7 million
