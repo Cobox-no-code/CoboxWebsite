@@ -16,7 +16,8 @@ const Hero: React.FC = () => {
           Build 3D multiplayer games with AI — no code needed.
         </h1>
         <p className="text-lg md:text-xl mb-8">
-          The Ultimate No-Code Studio for UGC 3D Multiplayer Games. Build immersive worlds, launch your creativity, and earn in the metaverse.
+          Empowering creators and players with true
+          ownership. Build, play, and earn in a decentralized world
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <Link href="https://discord.com/invite/KTMG3NxBEK" target="_blank">
@@ -25,10 +26,10 @@ const Hero: React.FC = () => {
               <Play className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />Launch Your World</Button>
           </Link>
           <Link href="https://opensea.io/collection/cobox-genesis" target="_blank">
-            <Button variant="outline" 
+            <Button variant="outline"
               size="lg"
               className="px-8 py-3 h-auto rounded-2xl border border-gray-700 hover:text-purple-500 hover:bg-black font-medium group">
-                <Coins className="w-4 h-4 mr-2 group-hover:rotate-12 transition-transform" />Explore Genesis NFTs</Button>
+              <Coins className="w-4 h-4 mr-2 group-hover:rotate-12 transition-transform" />Explore Genesis NFTs</Button>
           </Link>
         </div>
       </div>

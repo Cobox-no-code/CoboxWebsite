@@ -53,12 +53,12 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu Dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden mt-4 px-4 space-y-4 text-sm font-medium">
+        <div className="md:hidden mt-4 px-4 space-y-4 text-sm font-medium bg-black">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="block text-white hover:text-purple-400 transition"
+              className="block text-white hover:text-purple-400 transition border-b pb-2"
               onClick={() => setMobileMenuOpen(false)}
             >
               {link.name}
