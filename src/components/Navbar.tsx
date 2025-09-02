@@ -11,9 +11,10 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: 'Features', href: '#features' },
-    { name: 'AI Yodha', href: '#ai-yodha' },
+    { name: 'AI', href: '#ai-yodha' },
     { name: 'Studio', href: '#studio' },
     { name: 'Partners', href: '#partners' },
+    { name: 'Whitepaper', href: 'https://cobox.gitbook.io/cobox-universe-whitepaper' },
   ];
 
   return (

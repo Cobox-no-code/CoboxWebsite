@@ -7,13 +7,13 @@ const AiYodhaSection: React.FC = () => {
     <section id='ai-yodha' className="w-full bg-[#0b0b0f] text-white py-16">
       <div className="flex flex-col lg:flex-row items-center gap-12">
         {/* Left: Image */}
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 flex items-center justify-center">
           <Image
-            src="/Assets/ai-yodha.jpg"
+            src="/Assets/yodha.png"
             height={1500}
             width={1000}
             alt="AI Yodha"
-            className="w-auto h-full shadow-lg"
+            className="w-2/3 h-full shadow-lg"
           />
         </div>
 

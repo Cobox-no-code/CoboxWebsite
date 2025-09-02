@@ -9,7 +9,7 @@ const FeatureSection: React.FC = () => {
         {/* Left: Image */}
         <div className="w-full lg:w-1/2">
           <Image
-            src="/Assets/build.jpg"
+            src="/Assets/home1.png"
             width={1000}
             height={1500}
             alt="Built for Creators"

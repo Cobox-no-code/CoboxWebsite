@@ -51,9 +51,10 @@ const Footer = () => {
           <ul className="space-y-2 text-sm">
             <li><a href="#home">Home</a></li>
             <li><a href="#features">Features</a></li>
-            <li><a href="#ai-yodha">AI Yodha</a></li>
+            <li><a href="#ai-yodha">AI</a></li>
             <li><a href="#studio">Studio</a></li>
             <li><a href="#partners">Partners</a></li>
+            <li><a href="https://cobox.gitbook.io/cobox-universe-whitepaper">Whitepaper</a></li>
           </ul>
         </div>
 
