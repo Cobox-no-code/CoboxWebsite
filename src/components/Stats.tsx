@@ -11,28 +11,28 @@ const Stats: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
         <div className="group">
           <div className="text-4xl font-bold bg-gradient-to-r from-[hsl(195,100%,60%)] to-[hsl(280,85%,60%)] bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">
-            7 M
+            7 Mil+
           </div>
           <div className="text-sm text-muted-foreground">UGC Game Creators</div>
         </div>
 
         <div className="group">
           <div className="text-4xl font-bold bg-gradient-to-r from-[hsl(195,100%,60%)] to-[hsl(280,85%,60%)] bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">
-            750 M+
+            750 Mil+
           </div>
           <div className="text-sm text-muted-foreground">UGC Game Players</div>
         </div>
 
         <div className="group">
           <div className="text-4xl font-bold bg-gradient-to-r from-[hsl(195,100%,60%)] to-[hsl(280,85%,60%)] bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">
-            3 M
+            3 Mil+
           </div>
           <div className="text-sm text-muted-foreground">Creators Earning</div>
         </div>
 
         <div className="group">
           <div className="text-4xl font-bold bg-gradient-to-r from-[hsl(195,100%,60%)] to-[hsl(280,85%,60%)] bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">
-            $1.5 B+
+            $1.5 Bil+
           </div>
           <div className="text-sm text-muted-foreground">Total UGC Payouts (2024)</div>
         </div>
