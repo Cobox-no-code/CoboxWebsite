@@ -19,11 +19,11 @@ const AiYodhaSection: React.FC = () => {
 
         {/* Right: Content */}
         <div className="w-full lg:w-1/2 p-4 max-w-xl">
-          <p className="uppercase text-sm text-gray-400 font-semibold tracking-widest mb-2">
-            AI YODHA POWER
-          </p>
+          {/* <p className="uppercase text-sm text-gray-400 font-semibold tracking-widest mb-2">
+            AI POWER
+          </p> */}
           <h2 className="text-4xl font-bold mb-4 leading-tight">
-            AI Yodha<br />
+            AI POWER<br />
             <span className="text-purple-500">Your Creative Warrior</span>
           </h2>
           <p className="text-gray-300 mb-6">

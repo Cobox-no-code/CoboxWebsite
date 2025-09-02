@@ -3,9 +3,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Menu, X, } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, type Variants } from 'framer-motion';
 import { FaFacebook, FaInstagram, FaTelegram, FaXTwitter } from 'react-icons/fa6';
 
 const Navbar: React.FC = () => {
@@ -19,26 +19,29 @@ const Navbar: React.FC = () => {
     { name: 'Whitepaper', href: 'https://cobox.gitbook.io/cobox-universe-whitepaper' },
   ];
 
+  // Use a typed const tuple for cubic-bezier
+  const cubic = [0.42, 0, 0.58, 1] as const;
+
   // Drawer animation
-  const drawerVariants = {
-    hidden: { y: "-100%" },
+  const drawerVariants: Variants = {
+    hidden: { y: '-100%' },
     visible: {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: "easeInOut",
-        when: "beforeChildren",
+        ease: cubic,               // ✅ tuple, not number[]
+        when: 'beforeChildren',
         staggerChildren: 0.1,
       },
     },
     exit: {
-      y: "-100%",
-      transition: { duration: 0.5, ease: "easeInOut" },
+      y: '-100%',
+      transition: { duration: 0.5, ease: cubic },
     },
   };
 
   // Staggered child animation
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: -20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.4 } },
   };
@@ -99,10 +102,8 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Center Menu Items */}
-            <motion.nav
-              className="flex flex-col gap-2 text-lg font-medium items-start"
-            >
-              {navLinks.map((link, i) => (
+            <motion.nav className="flex flex-col gap-2 text-lg font-medium items-start">
+              {navLinks.map((link) => (
                 <motion.a
                   key={link.name}
                   href={link.href}
@@ -124,17 +125,14 @@ const Navbar: React.FC = () => {
             </motion.nav>
 
             {/* Separator */}
-            <motion.div variants={itemVariants} className="border-t border-gray-700 my-6"></motion.div>
+            <motion.div variants={itemVariants} className="border-t border-gray-700 my-6" />
 
             {/* Social Media Icons */}
-            <motion.div
-              variants={itemVariants}
-              className="flex gap-6 text-white justify-center"
-            >
-              <a href="https://www.facebook.com/people/COBOX/100083173726667" target="_blank"><FaFacebook size={22} /></a>
-              <a href="https://x.com/COBOXmetaverse" target="_blank"><FaXTwitter size={22} /></a>
-              <a href="https://www.instagram.com/coboxmetaverse" target="_blank"><FaInstagram size={22} /></a>
-              <a href="https://t.me/coboxcommunity" target="_blank"><FaTelegram size={22} /></a>
+            <motion.div variants={itemVariants} className="flex gap-6 text-white justify-center">
+              <a href="https://www.facebook.com/people/COBOX/100083173726667" target="_blank" rel="noreferrer"><FaFacebook size={22} /></a>
+              <a href="https://x.com/COBOXmetaverse" target="_blank" rel="noreferrer"><FaXTwitter size={22} /></a>
+              <a href="https://www.instagram.com/coboxmetaverse" target="_blank" rel="noreferrer"><FaInstagram size={22} /></a>
+              <a href="https://t.me/coboxcommunity" target="_blank" rel="noreferrer"><FaTelegram size={22} /></a>
             </motion.div>
           </motion.div>
         )}
