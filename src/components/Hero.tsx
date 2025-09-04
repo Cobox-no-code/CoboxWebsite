@@ -25,12 +25,12 @@ const Hero: React.FC = () => {
               className="px-8 py-3 h-auto group rounded-2xl border border-gray-700 hover:text-purple-500 hover:bg-black font-medium">
               <Play className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />Launch Your World</Button>
           </Link>
-          <Link href="https://opensea.io/collection/cobox-genesis" target="_blank">
+          {/* <Link href="https://opensea.io/collection/cobox-genesis" target="_blank">
             <Button variant="outline"
               size="lg"
               className="px-8 py-3 h-auto rounded-2xl border border-gray-700 hover:text-purple-500 hover:bg-black font-medium group">
               <Coins className="w-4 h-4 mr-2 group-hover:rotate-12 transition-transform" />Explore Genesis NFTs</Button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
