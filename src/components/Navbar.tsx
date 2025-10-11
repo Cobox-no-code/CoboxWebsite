@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
     { name: 'AI', href: '#ai-yodha' },
     { name: 'Studio', href: '#studio' },
     { name: 'Partners', href: '#partners' },
-    { name: 'Whitepaper', href: 'https://cobox.gitbook.io/cobox-universe-whitepaper' },
+    { name: 'Whitepaper', href: 'https://carnation-louse-f9e.notion.site/White-Paper-284524937b41808b8f3cda4befa6c7b7?source=copy_linkhitepaper' },
   ];
 
   // Use a typed const tuple for cubic-bezier

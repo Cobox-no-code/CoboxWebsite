@@ -54,7 +54,7 @@ const Footer = () => {
             <li><a href="#ai-yodha">AI</a></li>
             <li><a href="#studio">Studio</a></li>
             <li><a href="#partners">Partners</a></li>
-            <li><a href="https://cobox.gitbook.io/cobox-universe-whitepaper">Whitepaper</a></li>
+            <li><a href="https://carnation-louse-f9e.notion.site/White-Paper-284524937b41808b8f3cda4befa6c7b7?source=copy_link">Whitepaper</a></li>
           </ul>
         </div>
 

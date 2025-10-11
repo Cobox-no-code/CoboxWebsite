@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import MarqueeFooter from "@/components/Marquee";
 import NoCodeStudio from "@/components/NoCodeStudio";
 import PartnershipSection from "@/components/Partnership";
-import RoadMap from "@/components/RoadMap";
+// import RoadMap from "@/components/RoadMap";
 import Stats from "@/components/Stats";
 import Unleash from "@/components/Unleash";
 import VideoSection from "@/components/VideoSection";
@@ -20,7 +20,7 @@ export default function Home() {
       <Stats />
       <AiYodhaSection />
       <Unleash />
-      <RoadMap />
+      {/* <RoadMap /> */}
       <NoCodeStudio />
       <PartnershipSection />
       <CoboxText />
